@@ -40,7 +40,7 @@ def speak_text(text):
     engine.runAndWait()
 
 def main():
-    st.title("Yuva's LLM Application")
+    st.title("Simple Voicegpt")
     st.write("Input: ")
 
     chat_history = []
